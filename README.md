@@ -14,7 +14,7 @@ lazy val requests: Seq[Request[Either[String, String], Any]] =
       basicRequest.get(uri"https://myservice/testA"),
       basicRequest.get(uri"https://myservice/testB"),
       basicRequest.get(uri"https://myservice/testC"),
-    )
+    ) 
   )
 
 val phases = Seq(
